@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class SwitchScene : MonoBehaviour
 {
-    void TaskOnClick()
+    public void TaskOnClick(string name)
     {
-        SceneManager.LoadScene("Project");
+        SceneManager.LoadScene(name);
     }
 }
